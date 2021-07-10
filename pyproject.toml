@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "jypyter_notebook_samples"
+version = "0.1.0"
+description = "Jypyten notebook samples. Leaning Python."
+authors = ["Aleksei Panin <aleksei.panin@etteplanmore.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+requests = "^2.23.0"
+
+[tool.poetry.dev-dependencies]
+black = {version = "19.10b0", allow-prereleases = false}
+flake8 = "3.8.2"
+flake8-bandit = "2.1.2"
+flake8-black = "0.2.0"
+flake8-bugbear = "20.1.4"
+isort = "5.5.3"
+responses = "0.10.14"
+flake8-isort = "4.0.0"
+ipykernel = "6.0.1"
+pytest = "^6.2.3"
+pytest-html = "^3.1.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
