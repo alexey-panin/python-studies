@@ -1,0 +1,14 @@
+{
+    "python.defaultInterpreterPath": "/Users/ett16160/Library/Caches/pypoetry/virtualenvs/jypyter-notebook-samples-JW1wqGD9-py3.8/bin/python",
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": true,
+    "python.linting.enabled": true,
+    "editor.codeActionsOnSave": null,
+    "python.testing.pytestArgs": [
+        "pytest"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.nosetestsEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "jupyter.experimental.debugging": true
+}

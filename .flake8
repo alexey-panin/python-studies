@@ -1,0 +1,14 @@
+[flake8]
+# isort (i.e. I) was temporariry removed due some conflict with nox and .pre-commit
+select = ANN,B,B9,BLK,C,D,DAR,E,F,S,W  # I
+# ignore https://www.flake8rules.com/rules/W503.html
+# ignore I003 and I001 because there seems to be some conflict when running
+# nox -rs isort vs. poetry run isort
+ignore = W503, S311, I003, I001, I004
+# Set max line lenght to match Black default
+max-line-length = 88
+max-complexity = 20
+application-import-names = iot,tests
+import-order-style = google
+docstring-convention = google
+per-file-ignores = tests/*:S101
