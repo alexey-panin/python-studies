@@ -358,6 +358,66 @@ You can think of a test as being broken down into four steps:
 
 At it’s core, the test is ultimately the act and assert steps, with the arrange step only providing the context. Behavior exists between act and assert.
 
+# Mypy
+
+> Source: https://www.youtube.com/watch?v=18nZ5xMeGno
+
+> https://medium.com/analytics-vidhya/type-annotations-in-python-3-8-3b401384403d
+
+
+* Mypy is a static type checker
+* Doesn't run your code
+* Finds type errors
+
+More annotations in the code = better check!
+
+Example, mypy will not catch an error because it doesn't know what func a returns. It will find an error once func a in annotated.
+
+![](img/2021-07-26-17-18-18.png)
+
+You can run mypy with path restrictions
+
+![](img/2021-07-26-17-24-44.png)
+
+Can also use regexp to opt-in/out what to check
+
+![](img/2021-07-26-17-25-58.png)
+
+Per-file opt-in
+
+![](img/2021-07-26-17-27-15.png)
+
+You can omit checking imported modules like so
+
+![](img/2021-07-26-17-28-19.png)
+
+Stubs
+
+![](img/2021-07-26-17-30-49.png)
+
+Silencing errors
+
+![](img/2021-07-26-17-32-05.png)
+
+Ignoring missing stub errors
+
+![](img/2021-07-26-17-33-18.png)
+
+
+You can use bulk annotate code tools which will check types at a runtime and generate a draft of types which you can then edit.
+
+![](img/2021-07-26-17-36-39.png)
+
+How to speed up mypy runs
+
+![](img/2021-07-26-18-21-57.png)
+
+Nice summary of steps to take while taking mypy into the use
+
+![](img/2021-07-26-18-19-03.png)
+
+
+
 
 # Good links
 
