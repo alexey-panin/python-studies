@@ -7,6 +7,9 @@ authors = ["Aleksei Panin <aleksei.panin@etteplanmore.com>"]
 [tool.poetry.dependencies]
 python = "^3.8"
 requests = "^2.23.0"
+google-api-python-client = "2.33.0"
+google-auth-httplib2 = "0.1.0"
+google-auth-oauthlib = "0.4.6"
 
 [tool.poetry.dev-dependencies]
 black = {version = "19.10b0", allow-prereleases = false}
@@ -17,9 +20,10 @@ flake8-bugbear = "20.1.4"
 isort = "5.5.3"
 responses = "0.10.14"
 flake8-isort = "4.0.0"
-ipykernel = "6.0.1"
+ipykernel = "6.6.0"
 pytest = "^6.2.3"
 pytest-html = "^3.1.1"
+google-api-python-client-stubs = "1.9.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]

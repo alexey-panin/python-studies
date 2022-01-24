@@ -11,7 +11,32 @@
 * list methods
 * string methods
 * dictionary methods
-  
+
+# Good links
+
+* Destructuring in Python
+  > https://blog.tecladocode.com/destructuring-in-python/
+
+* Destructuring List in Python like Javascript
+  > https://medium.com/@umaramanat66/destructuring-list-in-python-like-javascript-f7d4c0968538
+
+* Python VS ES6 syntax comparison
+  > https://gist.github.com/revolunet/537a3448cff850231a74
+
+* Digital Ocean Python tutorial
+  > https://www.digitalocean.com/community/books/digitalocean-ebook-how-to-code-in-python
+
+* Real Python tutorials
+  > https://realpython.com/switching-to-python/
+
+* Guru99 Python tutorials
+  > https://www.guru99.com/python-tutorials.html
+
+## Python classes
+
+* [OOP and how to create classes in Python](https://realpython.com/python3-object-oriented-programming/)
+* [Customizing and function overloading in Python classes](https://realpython.com/operator-function-overloading/)
+* [Python thunder method names to customize a class](https://docs.python.org/3/reference/datamodel.html#special-method-names)
 
 # Good libraries to check out
 
@@ -417,24 +442,8 @@ Nice summary of steps to take while taking mypy into the use
 ![](img/2021-07-26-18-19-03.png)
 
 
+# Debugging
 
+> source: https://www.youtube.com/watch?v=5AYIe-3cD-s&t=45s
 
-# Good links
-
-* Destructuring in Python
-  > https://blog.tecladocode.com/destructuring-in-python/
-
-* Destructuring List in Python like Javascript
-  > https://medium.com/@umaramanat66/destructuring-list-in-python-like-javascript-f7d4c0968538
-
-* Python VS ES6 syntax comparison
-  > https://gist.github.com/revolunet/537a3448cff850231a74
-
-* Digital Ocean Python tutorial
-  > https://www.digitalocean.com/community/books/digitalocean-ebook-how-to-code-in-python
-
-* Real Python tutorials
-  > https://realpython.com/switching-to-python/
-
-* Guru99 Python tutorials
-  > https://www.guru99.com/python-tutorials.html
+> https://www.nnja.io/
